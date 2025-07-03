@@ -1,0 +1,16 @@
+# Core LangGraph and Langchain libraries
+langgraph
+langchain
+langchain-openai # 예시로 OpenAI 사용 가정, 필요에 따라 다른 LLM provider로 변경
+# langchain_anthropic
+# langchain_google_genai
+
+# For environment variable management (e.g., API keys)
+python-dotenv
+
+# For Playwright (if browser interaction is directly handled or mocked here)
+# playwright # 사용자님이 직접 제공하시므로, 여기서는 주석 처리
+
+# Other utilities if needed
+# pydantic # For state definition, if preferred over TypedDict
+# requests # If any direct HTTP calls are needed by tools/nodes
